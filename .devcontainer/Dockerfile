@@ -3,7 +3,7 @@
 # Copyright (c) 2021, 2022 Oracle and/or its affiliates. All rights reserved.
 #
 
-FROM container-registry.oracle.com/os/oraclelinux:7-slim
+FROM container-registry.oracle.com/os/oraclelinux:9-slim
 
 RUN yum update -y oraclelinux-release-el7 \
     && yum install -y oraclelinux-developer-release-el7 oracle-softwarecollection-release-el7 \
