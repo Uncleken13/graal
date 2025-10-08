@@ -49,7 +49,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.8'
+        python-version: '3.14'
     - name: Get latest Quarkus release
       run: |
         export QUARKUS_VERSION=main #$(curl https://repo1.maven.org/maven2/io/quarkus/quarkus-bom/maven-metadata.xml | awk -F"[<>]" '/latest/ {print $3}')
